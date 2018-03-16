@@ -1,6 +1,6 @@
 {
   "name": "node-gmt",
-  "version": "0.0.1-rc3",
+  "version": "0.0.1",
   "description": "A node.js lib for GMT",
   "main": "src/node-gmt.js",
   "directories": {
