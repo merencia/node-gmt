@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "nyc --reporter=html mocha --recursive"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   "homepage": "https://github.com/merencia/node-gmt#readme",
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "mocha": "^5.0.4"
+    "mocha": "^5.0.4",
+    "nyc": "^11.6.0"
   }
 }
