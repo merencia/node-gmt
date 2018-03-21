@@ -6,7 +6,7 @@ A simple way to handle time zones by GMT on node.js
 
 Install node-gmt using npm:
 
-``sh
+```sh
 $ npm install --save node-gmt
 ```
 
